@@ -5,8 +5,8 @@
 		"../scss/main.scss"
 	],
 	"sourcesContent": [
-		""
+		"* {\r\n    margin: 0;\r\n    padding: 0;\r\n}\r\n\r\n.wrapper {\r\n    width: 900px;\r\n    margin: 0 auto;\r\n    text-align: center;\r\n}\r\n\r\ninput {\r\n    margin-top: 10%;\r\n    width: 500px;\r\n    padding: 10px;\r\n}\r\n\r\n.inner-wrapper {\r\n    margin-top: 10%;\r\n    width: 900px;\r\n    display: grid;\r\n    grid-template-columns: 1fr 1fr 1fr 1fr;\r\n    grid-gap: 40px;\r\n    min-width: 0;\r\n    min-height: 0;\r\n    overflow: visible;\r\n}\r\n\r\nimg {\r\n    width: 100%;\r\n}"
 	],
 	"names": [],
-	"mappings": ""
+	"mappings": ";AAAA,AAAA,CAAC,CAAC;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACb;;;AAED,AAAA,QAAQ,CAAC;EACL,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,MAAM;EACd,UAAU,EAAE,MAAM;CACrB;;;AAED,AAAA,KAAK,CAAC;EACF,UAAU,EAAE,GAAG;EACf,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,IAAI;CAChB;;;AAED,AAAA,cAAc,CAAC;EACX,UAAU,EAAE,GAAG;EACf,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,eAAe;EACtC,QAAQ,EAAE,IAAI;EACd,SAAS,EAAE,CAAC;EACZ,UAAU,EAAE,CAAC;EACb,QAAQ,EAAE,OAAO;CACpB;;;AAED,AAAA,GAAG,CAAC;EACA,KAAK,EAAE,IAAI;CACd"
 }

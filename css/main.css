@@ -1,2 +1,38 @@
+/* line 1, C:/Users/nick/Google Drive/Projects/Programming/Treehouse Techdegree/Front-end Development/Unit 5/dev/scss/main.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 6, C:/Users/nick/Google Drive/Projects/Programming/Treehouse Techdegree/Front-end Development/Unit 5/dev/scss/main.scss */
+.wrapper {
+  width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* line 12, C:/Users/nick/Google Drive/Projects/Programming/Treehouse Techdegree/Front-end Development/Unit 5/dev/scss/main.scss */
+input {
+  margin-top: 10%;
+  width: 500px;
+  padding: 10px;
+}
+
+/* line 18, C:/Users/nick/Google Drive/Projects/Programming/Treehouse Techdegree/Front-end Development/Unit 5/dev/scss/main.scss */
+.inner-wrapper {
+  margin-top: 10%;
+  width: 900px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 40px;
+  min-width: 0;
+  min-height: 0;
+  overflow: visible;
+}
+
+/* line 29, C:/Users/nick/Google Drive/Projects/Programming/Treehouse Techdegree/Front-end Development/Unit 5/dev/scss/main.scss */
+img {
+  width: 100%;
+}
 
 /*# sourceMappingURL=main.css.map */

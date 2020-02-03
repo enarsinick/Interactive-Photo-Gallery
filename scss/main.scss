@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input {
+    margin-top: 10%;
+    width: 500px;
+    padding: 10px;
+}
+
+.inner-wrapper {
+    margin-top: 10%;
+    width: 900px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 40px;
+    min-width: 0;
+    min-height: 0;
+    overflow: visible;
+}
+
+img {
+    width: 100%;
+}
