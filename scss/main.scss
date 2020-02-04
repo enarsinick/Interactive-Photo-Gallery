@@ -1,31 +1,56 @@
+///////////////// VARIABLES
+
+$lightGrey: #d9d9d9;
+$darkGrey: #7f7f7f;
+
+
+///////////////// BASE PAGE STYLING
+
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
 }
 
 .wrapper {
-    width: 900px;
+    width: 980px;
     margin: 0 auto;
     text-align: center;
 }
 
 input {
-    margin-top: 10%;
+    margin-top: 5%;
     width: 500px;
     padding: 10px;
+    border-radius: 3px;
+    border: 1.5px solid $lightGrey;
+    color: $darkGrey;
+    font-size: 16px;
+}
+
+input::placeholder {
+    color: $darkGrey;
 }
 
 .inner-wrapper {
-    margin-top: 10%;
-    width: 900px;
+    margin-top: 5%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 40px;
-    min-width: 0;
-    min-height: 0;
-    overflow: visible;
+    grid-gap: 60px;
 }
 
 img {
     width: 100%;
+}
+
+///////////////// STYLING LIGHTBOX PLUGIN
+
+.lb-data .lb-close {
+    display: none;
+}
+
+.lb-data .lb-caption {
+    font-size: 20px;
+    width: 600px;
 }

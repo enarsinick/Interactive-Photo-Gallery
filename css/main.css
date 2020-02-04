@@ -1,38 +1,56 @@
-/* line 1, C:/Users/nick/Google Drive/Projects/Programming/Treehouse Techdegree/Front-end Development/Unit 5/dev/scss/main.scss */
+/* line 9, C:/Users/nick/Google Drive/Projects/Programming/Treehouse Techdegree/Front-end Development/Unit 5/dev/scss/main.scss */
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
 }
 
-/* line 6, C:/Users/nick/Google Drive/Projects/Programming/Treehouse Techdegree/Front-end Development/Unit 5/dev/scss/main.scss */
+/* line 16, C:/Users/nick/Google Drive/Projects/Programming/Treehouse Techdegree/Front-end Development/Unit 5/dev/scss/main.scss */
 .wrapper {
-  width: 900px;
+  width: 980px;
   margin: 0 auto;
   text-align: center;
 }
 
-/* line 12, C:/Users/nick/Google Drive/Projects/Programming/Treehouse Techdegree/Front-end Development/Unit 5/dev/scss/main.scss */
+/* line 22, C:/Users/nick/Google Drive/Projects/Programming/Treehouse Techdegree/Front-end Development/Unit 5/dev/scss/main.scss */
 input {
-  margin-top: 10%;
+  margin-top: 5%;
   width: 500px;
   padding: 10px;
+  border-radius: 3px;
+  border: 1.5px solid #d9d9d9;
+  color: #7f7f7f;
+  font-size: 16px;
 }
 
-/* line 18, C:/Users/nick/Google Drive/Projects/Programming/Treehouse Techdegree/Front-end Development/Unit 5/dev/scss/main.scss */
+/* line 32, C:/Users/nick/Google Drive/Projects/Programming/Treehouse Techdegree/Front-end Development/Unit 5/dev/scss/main.scss */
+input::placeholder {
+  color: #7f7f7f;
+}
+
+/* line 36, C:/Users/nick/Google Drive/Projects/Programming/Treehouse Techdegree/Front-end Development/Unit 5/dev/scss/main.scss */
 .inner-wrapper {
-  margin-top: 10%;
-  width: 900px;
+  margin-top: 5%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 40px;
-  min-width: 0;
-  min-height: 0;
-  overflow: visible;
+  grid-gap: 60px;
 }
 
-/* line 29, C:/Users/nick/Google Drive/Projects/Programming/Treehouse Techdegree/Front-end Development/Unit 5/dev/scss/main.scss */
+/* line 43, C:/Users/nick/Google Drive/Projects/Programming/Treehouse Techdegree/Front-end Development/Unit 5/dev/scss/main.scss */
 img {
   width: 100%;
+}
+
+/* line 49, C:/Users/nick/Google Drive/Projects/Programming/Treehouse Techdegree/Front-end Development/Unit 5/dev/scss/main.scss */
+.lb-data .lb-close {
+  display: none;
+}
+
+/* line 53, C:/Users/nick/Google Drive/Projects/Programming/Treehouse Techdegree/Front-end Development/Unit 5/dev/scss/main.scss */
+.lb-data .lb-caption {
+  font-size: 20px;
+  width: 600px;
 }
 
 /*# sourceMappingURL=main.css.map */
