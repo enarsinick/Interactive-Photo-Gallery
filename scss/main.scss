@@ -46,11 +46,39 @@ img {
 
 ///////////////// STYLING LIGHTBOX PLUGIN
 
-.lb-data .lb-close {
+.lb-closeContainer {
     display: none;
+}
+
+.lb-data .lb-details {
+    width: 600px;
+    margin: 60px 100px;
+    text-align: center;
 }
 
 .lb-data .lb-caption {
     font-size: 20px;
-    width: 600px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+.lightbox .lb-image {
+    border: none;
+    border-radius: 0px;
+}
+
+.lightboxOverlay {
+    background-color: #383838;
+    opacity: .95;
+}
+
+.lb-nav {
+    width: 1200px;
+    margin-left: -200px;
+
+    a.lb-prev,
+    a.lb-next {
+        opacity: 1;
+    }
 }

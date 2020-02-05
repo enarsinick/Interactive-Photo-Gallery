@@ -43,14 +43,47 @@ img {
 }
 
 /* line 49, C:/Users/nick/Google Drive/Projects/Programming/Treehouse Techdegree/Front-end Development/Unit 5/dev/scss/main.scss */
-.lb-data .lb-close {
+.lb-closeContainer {
   display: none;
 }
 
 /* line 53, C:/Users/nick/Google Drive/Projects/Programming/Treehouse Techdegree/Front-end Development/Unit 5/dev/scss/main.scss */
+.lb-data .lb-details {
+  width: 600px;
+  margin: 60px 100px;
+  text-align: center;
+}
+
+/* line 59, C:/Users/nick/Google Drive/Projects/Programming/Treehouse Techdegree/Front-end Development/Unit 5/dev/scss/main.scss */
 .lb-data .lb-caption {
   font-size: 20px;
-  width: 600px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+/* line 66, C:/Users/nick/Google Drive/Projects/Programming/Treehouse Techdegree/Front-end Development/Unit 5/dev/scss/main.scss */
+.lightbox .lb-image {
+  border: none;
+  border-radius: 0px;
+}
+
+/* line 71, C:/Users/nick/Google Drive/Projects/Programming/Treehouse Techdegree/Front-end Development/Unit 5/dev/scss/main.scss */
+.lightboxOverlay {
+  background-color: #383838;
+  opacity: .95;
+}
+
+/* line 76, C:/Users/nick/Google Drive/Projects/Programming/Treehouse Techdegree/Front-end Development/Unit 5/dev/scss/main.scss */
+.lb-nav {
+  width: 1200px;
+  margin-left: -200px;
+}
+
+/* line 80, C:/Users/nick/Google Drive/Projects/Programming/Treehouse Techdegree/Front-end Development/Unit 5/dev/scss/main.scss */
+.lb-nav a.lb-prev,
+.lb-nav a.lb-next {
+  opacity: 1;
 }
 
 /*# sourceMappingURL=main.css.map */
