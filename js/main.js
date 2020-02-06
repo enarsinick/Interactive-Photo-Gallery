@@ -7,19 +7,21 @@ lightbox.option({
     alwaysShowNavOnTouchDevices: true
 });
 
-// Selection all anchor elements
-let images = document.querySelectorAll('a'); 
+// Select all the anchor elements on the page
+let images = document.querySelectorAll('a');
 
-$('#search').on('keyup', function() {
-    // Gets the value of the search box and converts it all to lowercase
-    let search = $(this).val().toLowerCase();
-    // Loop through all of the links in the images collection
-    for (let i = 0; i < images.length; i++) {
-        let input = images[i].getAttribute('data-title');
-        if (input.toLowerCase().indexOf(search) > -1) {
-            images[i].style.display = '';
-        } else {
-            images[i].style.display = 'none';
+$(document).ready(function(){
+    $("#search").on("keyup", function() {
+        // Get the value of the search box and cover to lowercase
+        let search = $(this).val().toLowerCase();
+        // Loop through the images and match the search value to the data-title attribute of the images
+        for (let i = 0; i < images.length; i++) {
+            let input = images[i].getAttribute('data-title');
+            if (input.toLowerCase().indexOf(search) > -1) {
+                images[i].style.display = '';
+            } else {
+                images[i].style.display = 'none';
+            }
         }
-    }
-});
+    });
+  });
